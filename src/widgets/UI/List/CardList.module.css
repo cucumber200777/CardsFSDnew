@@ -1,0 +1,8 @@
+.card__gallery{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,380px);
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+}
