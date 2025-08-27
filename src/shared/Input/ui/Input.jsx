@@ -1,6 +1,7 @@
 import React from 'react'
 
-const MyInputs = ({...props}) => {
+const Input = (props) => {
+  const {...otherProps} = props
  return (
     <input {...props} />
   );
